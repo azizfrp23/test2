@@ -103,6 +103,18 @@ ul{
     justify-content: center;
     margin-bottom: 50px;
 }
+.forms form input{
+    margin: 10px 10px;
+    display: flex;
+
+}
+.forms form button{
+    background-color: red;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
 .foot{
     background: cornflowerblue;
     display: flex;
