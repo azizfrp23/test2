@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,78,70,1) 50%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: space-around;
+}
+.list{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.nav h1{
+    color: whitesmoke;
+}
+.list li{
+    margin: 0 20px;
+}
+.list li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.search input{
+    border-radius: 10px;
+    padding: 5px;
+    outline: 0;
+}
+.burger{
+    display: flex;
+    align-items: center;
+    display: none;
+
+}
+.burger i{
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+@media screen and (max-width:778px) {
+    .list{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+.banner{
+    background: url(https://wallpaperaccess.com/full/3288227.jpg)center / cover;
+    width: 100%;
+    height: 90vh;
+}
+.content h1{
+    margin: 0;
+    font-size: 80px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 100px;
+    text-shadow: 0 0 20px whitesmoke;
+
+}
+.row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background: url(https://image.freepik.com/free-vector/shark-logo_43901-65.jpg)center / cover;
+    margin: 10px;
+}
+@media screen and (max-width:778px) {
+    .row{
+        flex-wrap:wrap ;
+    }
+    
+}
+.forms{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.foot{
+    background: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+}
+.foot h1{
+    color: whitesmoke;
+}
+.foot h2{
+    color: red;
+}
